@@ -12,11 +12,11 @@
         div.bonus-item.bonus
             div.item-back.balance
                 div.item-show(@touchend="showMessage")
-                    div.bet-num(v-bind:style="betNum") {{height}}
+                    div.bet-num(v-bind:style="betNum" v-html="userinfo.money")
 </template>
 <script>
 export default {
-    props: ['zoomRate'],
+    props: ['zoomRate', 'userinfo'],
     ready() {
         console.log(this.countDown)
         this.count(this.countDown)

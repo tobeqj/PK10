@@ -1,0 +1,12 @@
+
+> pk10@1.0.0 build C:\Users\Administrator\Document\workspace\lsweixintest\1
+> webpack
+
+Hash: fc32158ee770fa11f143
+Version: webpack 1.13.1
+Time: 6479ms
+                               Asset     Size  Chunks             Chunk Names
+4b4a6609b989655a4d67f245bd57e41d.png   362 kB          [emitted]  
+                              app.js   2.3 MB       0  [emitted]  app
+                          manager.js  2.08 MB       1  [emitted]  manager
+    + 109 hidden modules

@@ -5,7 +5,7 @@
             table
                 tr
                     td
-                        span(v-bind:style="{fontSize:26*zoomRate.x+'px'}",v-html='gameData.notice')
+                        span(v-bind:style="{fontSize:26*zoomRate.x+'px'}",v-html='notice.title')
         div.option(@touchend="triggerOption")
         options-dialog(v-bind:game-data="gameData",v-bind:zoom-rate="zoomRate")
 </template>
@@ -15,7 +15,7 @@ export default {
     ready() {
             console.log(this.gameData.notice)
         },
-        props: ['gameData', 'zoomRate'],
+        props: ['gameData', 'zoomRate', 'notice'],
         data() {
             return {
                 name: 'liu',
